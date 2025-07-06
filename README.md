@@ -1,10 +1,12 @@
 📚 Dictionary App
+
 A sleek, modern, and fully responsive English dictionary web app built with HTML, CSS, and JavaScript.
 Easily search for any English word and explore its pronunciation, definitions, parts of speech, synonyms, antonyms, and example usages.
 
-🔗 Live Demo 
+🔗 Live Demo https://github.com/ArshiTayal/Dictionary
 
 ✨ Features
+
 🔍 Instant word lookup powered by the Free Dictionary API
 
 🌗 Light/Dark mode toggle for comfortable reading
