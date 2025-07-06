@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="dict.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Roboto+Mono&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Dictionary</h1>
+  <div class="app-container">
+    <p>📖</p>
+    <div class="top-controls">
+      <div class="font-selector">
+        <label for="fontSelect"></label>
+        <select id="fontSelect">
+          <option value="Inter">Sans-serif</option>
+          <option value="Merriweather">Serif</option>
+          <option value="Roboto Mono">Monospace</option>
+        </select>
+      </div>
+
+      <div class="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+        </label>
+         <span>🌙</span>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="wordInput" placeholder="Enter your word(e.g. adventure, keyboard, computer...)" autofocus />
+      <button id="searchBtn">🔍</button>
+    </div>
+
+    <div class="history" id="historyContainer"></div>
+
+    <div class="tip">
+      💬 Tip: Click on recent words to view their meaning!
+    </div>
+
+    <div id="loader" class="loader hidden"></div>
+    <div class="result-card animate" id="resultContainer"></div>
+  </div>
+
+  <footer>
+    🔗<a href="https://dictionaryapi.dev/" target="_blank">Source-<u>https://dictionaryapi.dev/</u></a>
+  </footer>
+
+  <script src="dict.js"></script>
+</body>
+</html>
