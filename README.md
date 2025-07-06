@@ -3,7 +3,7 @@
 A sleek, modern, and fully responsive English dictionary web app built with HTML, CSS, and JavaScript.
 Easily search for any English word and explore its pronunciation, definitions, parts of speech, synonyms, antonyms, and example usages.
 
-🔗 Live Demo https://github.com/ArshiTayal/Dictionary
+🔗 Live Demo https: https://arshitayal.github.io/Dictionary/
 
 ✨ Features
 
